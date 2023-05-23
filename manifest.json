@@ -1,0 +1,15 @@
+{
+    "name": "Color my Flowsheet UB",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Flowsheet color tool",
+    "content_scripts": [
+        {
+          "matches": ["https://academics.eng.buffalo.edu/academics/flowsheet/"],
+          "js": ["flowsheet.js"]
+        }
+    ],
+    "permissions": [
+      "tabs"
+    ]
+  }
