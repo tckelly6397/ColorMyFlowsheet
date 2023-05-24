@@ -6,7 +6,8 @@
     "content_scripts": [
         {
           "matches": ["https://academics.eng.buffalo.edu/academics/flowsheet/"],
-          "js": ["flowsheet.js"]
+          "js": ["flowsheet.js"],
+          "css": ["flowsheet_styling.css"]
         }
     ],
     "permissions": [
